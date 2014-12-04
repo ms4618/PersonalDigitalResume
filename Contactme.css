@@ -1,0 +1,277 @@
+.justify {
+    text-align:center
+}
+
+body {
+    background:#fff;
+    font-family:'Poiret One',cursive;
+    font-size:24px;
+    background-image:url(webbackground.jpg);
+    background-size:3000px 1000px;
+    background-repeat:no-repeat;
+    background-position:right top
+}
+
+#topNav {
+    max-width:1180px;
+    background-color:#fff;
+    position:relative;
+    margin:0 auto;
+    padding:0 0 15px;
+    padding-top:0;
+    padding-right:0;
+    padding-bottom:15px;
+    padding-left:0
+}
+
+.border-style-dotted #topNav {
+    border-bottom:dotted 1px #707070;
+    border-bottom-width:1px;
+    border-bottom-style:dotted;
+    border-bottom-color:#707070
+}
+
+.nav {
+    width:100%;
+    float:left;
+    margin:1px auto;
+    padding:0;
+    text-align:center;
+    list-style:none;
+    background-color:#fff;
+    font-family:'Poiret One',cursive;
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #ccc;
+    opacity:.6
+}
+
+.nav li {
+    float:left;
+    text-align:center
+}
+
+.nav li a {
+    display:block;
+    padding:8px 15px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Poiret One',cursive;
+    font-weight:700;
+    color:#add8e6;
+    border-right:2px solid #ccc
+}
+
+.nav li a:hover {
+    color:green;
+    background-color:#fff
+}
+
+h1 {
+    text-align:center;
+    display:block;
+    font-family:'Poiret One',cursive;
+    font-weight:450;
+    color:#000
+}
+
+h3 {
+    text-align:center;
+    display:block;
+    font-family:'Poiret One',cursive;
+    font-weight:500;
+    color:#000
+}
+
+li {
+    list-style:none;
+    display:inline;
+    padding:10px;
+    text-align:center
+}
+
+li a {
+    text-align:center
+}
+
+a: link {
+    color:teal
+}
+
+.pictures {
+    margin:3px auto;
+    float:center;
+    padding:0;
+    text-align:center;
+    display:center
+}
+
+.link {
+    float:center;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Poiret One',cursive;
+    font-weight:500;
+    color:#add8e6
+}
+
+.form {
+width: 920px;
+height: 416px;
+margin: -40px auto 0px auto;
+}
+div {
+display: block;
+}
+.allfields {
+clear: both;
+}
+.leftfields {
+float: left;
+margin: 30px 0 0px 0;
+margin-top: 30px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+}
+.field {
+width: 280px;
+text-align: left;
+margin: 0px 0px 0px 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+}
+.formlabel {
+width: 280px;
+color: #a4c9c6;
+text-align: left;
+margin: 29px 0 15px auto;
+}
+.textfield {
+padding: 0px 0px 0px 15px;
+font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px;
+font-style: italic;
+background-color: #c9ebe8;
+color: #fff;
+border: 0px;
+width: 280px;
+height: 50px;
+background-image: url(../image/form-small.jpg);
+-webkit-appearance: none;
+-webkit-border-radius: 0;
+}
+.textfield {
+padding: 0px 0px 0px 15px;
+font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px;
+font-style: italic;
+background-color: #c9ebe8;
+color: #fff;
+border: 0px;
+width: 280px;
+height: 50px;
+background-image: url(../image/form-small.jpg);
+-webkit-appearance: none;
+-webkit-border-radius: 0;
+}
+
+.msgfield {
+width: 600px;
+text-align: left;
+margin: 0px 0px 40px 0;
+float: right;
+}
+.msglabel {
+width: 600px;
+color: #a4c9c6;
+text-align: left;
+margin: 59px auto 16px auto;
+}
+.messagefield {
+padding: 14px 0px 0px 15px;
+font-size: 14px;
+background-color: #c9ebe8;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px;
+font-style: italic;
+color: #fff;
+resize: none;
+border: 0px;
+width: 600px;
+height: 170px;
+background-image: url(../image/form-large.jpg);
+overflow: hidden;
+-webkit-appearance: none;
+-webkit-border-radius: 0;
+}
+.submiting {
+width: 600px;
+height: 50px;
+float: right;
+}
+.sendstatus {
+margin: 0px 200px 0px 0px;
+text-align: center;
+width: 420px;
+height: 50px;
+float: left;
+}
+p#success {
+text-align: center;
+padding-top: 10px;
+margin: 0px;
+color: #a4c9c6;
+border: #a4c9c6;
+border-style: solid;
+border-width: 4px;
+width: 420px;
+height: 32px;
+}
+p#bademail {
+text-align: center;
+padding-top: 10px;
+margin: 0px;
+color: #e76666;
+border: #e76666;
+border-style: solid;
+border-width: 4px;
+width: 420px;
+height: 32px;
+}
+p#badserver {
+text-align: center;
+padding-top: 10px;
+margin: 0px;
+color: #e76666;
+border: #e76666;
+border-style: solid;
+border-width: 4px;
+width: 420px;
+height: 32px;
+}
+.butcontain {
+float: right;
+margin-top: -50px;
+}
+.button {
+text-align: center;
+background: none;
+padding-top: 3px;
+margin: 0px;
+color: #fff;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px;
+font-style: italic;
+border: #a4c9c6;
+border-style: solid;
+border-width: 4px;
+width: 138px;
+height: 50px;
+font-size: 16px;
+cursor: pointer;
+}
+

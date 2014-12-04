@@ -1,0 +1,160 @@
+.justify {
+    text-align:center;
+}
+
+body {
+    background:#fff;
+    background-image: url("webbackground.jpg"); 
+    background-size: 1500px 700px; 
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-family:'Poiret One',cursive;
+    font-size:24px;
+}
+
+.nav {
+    width:100%;
+    float:left;
+    position: fixed;
+    text-align:center;
+    list-style:none;
+    background-color:#fff;
+    font-family:'Poiret One',cursive;
+    opacity: 0.6;
+}
+
+.nav li {
+    float:left;
+    text-align:center;
+}
+
+.nav li a {
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Poiret One',cursive;
+    font-weight:700;
+    color:#add8e6;
+}
+
+h1 {
+    text-align:center;
+    display:block;
+    font-family:'Poiret One',cursive;
+    font-weight:500;
+    color:#000;
+    padding:82px;
+}
+
+li {
+    list-style:none;
+    display:inline;
+    padding:10px;
+    text-align:center;
+}
+
+li a {
+    text-align:center;
+}
+
+a: link {
+    color:teal;
+}
+#toolbox {
+width: 517px;
+height: 155px;
+margin-top: -31px;
+float: left;
+}
+#adobe-icons {
+width: 355px;
+height: 188px;
+float: left;
+margin-left: 81px;
+margin-top: -32px;
+}
+#photoshop-icon {
+width: 2px;
+height: 2px;
+float: left;
+margin-top: -50px;
+margin-left: 60px;
+}
+#lightroom-icon {
+width: 20px;
+height: 20px;
+margin-left: 257px;
+margin-top: -25px;
+float: left;
+}
+#skillset {
+width: 517px;
+height: 155px;
+margin-top: -28px;
+float: right;
+}
+#skillset-dots {
+width: 383px;
+height: 271px;
+margin-top: -31px;
+margin-right: 63px;
+float: right;
+background-repeat: no-repeat;
+}
+#skillset-xhtml {
+width: 120px;
+height: 25px;
+float: left;
+margin-top: -55px;
+margin-left: 18px;
+}
+#skillset-css {
+width: 120px;
+height: 25px;
+float: left;
+margin-top: -15px;
+margin-left: 18px;
+}
+
+
+
+@media (min-width: 768px) {
+  .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  .navbar-right .dropdown-menu-left {
+    right: auto;
+    left: 0;
+  }
+.pictures {
+    margin:5px auto;
+    float:center;
+    margin:1px auto;
+    padding:0;
+    text-align:center;
+    display:center;
+}
+
+.link {
+    display:center;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Poiret One',cursive;
+    font-weight:500;
+    color:#add8e6;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+text-align: center;
+box-shadow: 0;
+display: center;
+}
+#socialmediabuttons {
+    text-align: center; 
+    margin: 0 auto;
+    display:block;
+} 
