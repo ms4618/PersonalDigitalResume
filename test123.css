@@ -1,0 +1,126 @@
+.justify {
+    text-align:center;
+}
+
+body {
+    background:#fff;
+    font-family:'Poiret One',cursive;
+    font-size:24px;
+    background-image:url(webbackground.jpg);
+    background-size:3000px 1000px;
+    background-repeat:no-repeat;
+    background-position:right top;
+}
+#nav {
+    border:0;
+    margin:0;
+    padding:0;
+    width:auto;
+    font-family:'Poiret One',cursive;
+    font-size:14px;
+    margin-top:5px;
+    background-color:#FFF;
+    opacity:.5;
+    filter:alpha(opacity=50);
+}
+
+#nav ul {
+    height:10px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#nav li {
+    float:none;
+    display:inline-block;
+    padding:0;
+}
+
+#nav li a {
+    display:block;
+    margin:0;
+    text-align:center;/
+    text-decoration:none;
+}
+
+
+#nav li > a:hover,#cssnav ul li:hover {
+    color:white;
+    background-color:lightblue;
+    text-decoration:none;
+}
+
+#nav li ul {
+    display:none;
+    height:auto;
+    padding:0;
+    margin:0;
+    border:0;
+    position:absolute;
+    width:100px;
+    z-index:9999;
+}
+
+#nav li:hover ul {
+    display:block;
+}
+
+#nav li li {
+    display:block;
+    float:none;
+    margin:0;
+    padding:0;
+    width:100px;
+}
+
+#nav li:hover li a {
+    background:green;
+}
+
+#nav li ul a {
+    display:block;
+    height:auto;
+    margin:0;
+    padding:10px;
+    text-align:left;
+}
+
+#nav li ul a:hover,#nav li ul li:hover > a {
+    color:pink;
+    background-color:green;
+    border:0;
+    text-decoration:none;
+}
+
+.navleft {
+    float:left
+}
+
+.navright {
+    float:right
+}
+
+.navright li a {
+    padding:0!important
+}
+
+.tabs-inner .widget ul {
+    margin-right:0;
+    margin-left:0
+}
+
+.tabs-inner .widget ul,.tabs-inner .widget li a,.tabs-inner .section:first-child ul {
+    background:none;
+    border:0
+}
+
+#navigationbar {
+    width:100%;
+    height:40px;
+    background:#eee;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:999
+}
